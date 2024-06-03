@@ -14,11 +14,3 @@ Exercicio localizado no link https://lms.ebaconline.com.br/lesson/6a252352-a8e3-
 - Realizado o commit com o comando **git commit -m "add file nome.txt in branch exercicio_git"**
 - Realizado o Push para o GitHub com o comando **git push https://github.com/danielremies/curso_ebac_frontend.git**
 <hr>
-
-## Exercicio HTML
-### Atividade
-Exercicio localizadono link https://lms.ebaconline.com.br/lesson/93d68328-0746-456d-b3b3-e4bd4f58f359 referente à aula de HTML
-
-### Etapas
-- Arquivo criado e editado utilizando o Visual Studio
-- Realizado o push do arquivo para a nova branch exercicio_html
