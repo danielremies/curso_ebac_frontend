@@ -6,19 +6,20 @@
     <title>EBAC - Exercício HTML</title>
 </head>
 <body>
-    <h1>Formulário de Cadastro</h1>  <!--Titulo Principal--> 
-    <label> <!--Input de Nome-->
-        Nome <input type="text" placeholder="Insira o Nome Completo" style="margin-bottom: 2px;"> <!--Utilizado style para separar os inputs, o ideal seria configurar isso no CSS-->
-    </label>
-    <br> <!--Quebra de Linha-->
-    <label> <!--Input de Email-->
-        Email <input type="email" placeholder="Insira o email@email.com" style="margin-bottom: 2px;">
-    </label>
-    <br> 
-    <label> <!--Input de Senha-->
-        Senha <input type="password" placeholder="Insira a senha" style="margin-bottom: 2px;">
-    </label>
-    <br>  
+    <h1>Formulário de Cadastro</h1>  <!--Titulo Principal-->
+    <form>
+        <label for="nome"> <!--Input de Nome-->
+            Nome <input type="text" id="nome" placeholder="Insira o Nome Completo" style="margin-bottom: 2px;"> <!--Utilizado style para separar os inputs, o ideal seria configurar isso no CSS-->
+        </label>
+        <br> <!--Quebra de Linha-->
+        <label for="email"> <!--Input de Email-->
+            Email <input type="email" id="email" placeholder="Insira o email@email.com" style="margin-bottom: 2px;">
+        </label>
+        <br> 
+        <label for="senha"> <!--Input de Senha-->
+            Senha <input type="password" id="senha" placeholder="Insira a senha" style="margin-bottom: 2px;">
+        </label>
+    </form> 
     <button type="submit">Cadastrar</button>  <!--Botão Cadastrar-->
 </body>
 </html>
